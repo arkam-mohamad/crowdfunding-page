@@ -1,1 +1,158 @@
+*{
+  margin: 0;
+  font-family: 'Commissioner', sans-serif;
+}
+header{
+  background-image: url('./images/image-hero-desktop.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 50px 100px 200px 100px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+.links{
+  display: flex;
+  gap: 20px;
+}
+a{
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  background-color: hsl(0, 0%, 95%);
+}
+main > div{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  translate: 0 -100px;
 
+}
+.container{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  border-radius: 10px;
+  gap: 20px;
+  width: 600px;
+}
+.container:first-child{
+  position: relative;
+}
+.logo-small{
+  position: absolute;
+  top: -30px;
+}
+.buttons{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+button{
+  padding: 0 20px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 40px;
+  border: 0;
+  background-color: hsl(0, 0%, 95%);
+}
+.green{
+  background-color: hsl(176, 50%, 47%);
+  color: white;
+}
+.bookmark{
+  padding: 0 20px 0 0;
+
+}
+.bookmark img{
+  width: 40px;
+}
+.container:nth-child(2){
+  gap: 50px;
+}
+.numbers{
+  display: flex;
+  gap: 50px;
+}
+.numbers > div{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-left: 1px solid hsl(0, 0%, 90%);
+  padding-left: 50px;
+}
+.numbers > .left{
+  padding-left: 0;
+  border: 0;
+}
+.progress{
+  width:100%;
+  height: 10px;
+  background-color: hsl(0, 0%, 90%);
+  border-radius: 10px;
+}
+.progress p{
+  width: 80%;
+  height: 100%;
+  background-color: hsl(176, 50%, 47%);
+  border-radius: 10px;
+}
+h3{
+  align-self: start;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid hsl(0, 0%, 90%);
+  border-radius: 10px;
+  padding: 30px;
+}
+h4{
+  display: flex;
+  justify-content: space-between;
+}
+h4 span{
+  color: hsl(176, 50%, 47%);
+}
+.content-bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h5{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 32px;
+}
+h5 small{
+  font-size: 16px;
+  font-weight: normal;
+}
+.gray h4{
+  color: hsl(0, 0%, 48%);
+}
+.gray h4 span{
+  color: hsl(176, 50%, 77%);
+}
+.gray p{
+  color: hsl(0, 0%, 90%);
+}
+.gray button{
+  background-color: hsl(0, 0%, 68%);
+  color: white;
+}
